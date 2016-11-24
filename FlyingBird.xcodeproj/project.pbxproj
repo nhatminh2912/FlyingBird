@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF24DBDA1DE6E128007E6DE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24DBD91DE6E128007E6DE5 /* AppDelegate.swift */; };
+		CF24DBDC1DE6E128007E6DE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24DBDB1DE6E128007E6DE5 /* ViewController.swift */; };
+		CF24DBDF1DE6E128007E6DE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBDD1DE6E128007E6DE5 /* Main.storyboard */; };
+		CF24DBE11DE6E128007E6DE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBE01DE6E128007E6DE5 /* Assets.xcassets */; };
+		CF24DBE41DE6E128007E6DE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBE21DE6E128007E6DE5 /* LaunchScreen.storyboard */; };
+		CF24DBEF1DE6E128007E6DE5 /* FlyingBirdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF24DBEE1DE6E128007E6DE5 /* FlyingBirdTests.swift */; };
+		CF24DC021DE6E152007E6DE5 /* A+ – Chào Mào Mái Hót.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBFA1DE6E152007E6DE5 /* A+ – Chào Mào Mái Hót.mp3 */; };
+		CF24DC031DE6E152007E6DE5 /* bird0.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBFB1DE6E152007E6DE5 /* bird0.png */; };
+		CF24DC041DE6E152007E6DE5 /* bird1.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBFC1DE6E152007E6DE5 /* bird1.png */; };
+		CF24DC051DE6E152007E6DE5 /* bird2.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBFD1DE6E152007E6DE5 /* bird2.png */; };
+		CF24DC061DE6E152007E6DE5 /* bird3.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBFE1DE6E152007E6DE5 /* bird3.png */; };
+		CF24DC071DE6E152007E6DE5 /* bird4.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24DBFF1DE6E152007E6DE5 /* bird4.png */; };
+		CF24DC081DE6E152007E6DE5 /* bird5.png in Resources */ = {isa = PBXBuildFile; fileRef = CF24DC001DE6E152007E6DE5 /* bird5.png */; };
+		CF24DC091DE6E152007E6DE5 /* jungle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF24DC011DE6E152007E6DE5 /* jungle.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF24DBEB1DE6E128007E6DE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF24DBCE1DE6E128007E6DE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF24DBD51DE6E128007E6DE5;
+			remoteInfo = FlyingBird;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF24DBD61DE6E128007E6DE5 /* FlyingBird.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingBird.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF24DBD91DE6E128007E6DE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF24DBDB1DE6E128007E6DE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF24DBDE1DE6E128007E6DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF24DBE01DE6E128007E6DE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF24DBE31DE6E128007E6DE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF24DBE51DE6E128007E6DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF24DBEA1DE6E128007E6DE5 /* FlyingBirdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingBirdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF24DBEE1DE6E128007E6DE5 /* FlyingBirdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingBirdTests.swift; sourceTree = "<group>"; };
+		CF24DBF01DE6E128007E6DE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF24DBFA1DE6E152007E6DE5 /* A+ – Chào Mào Mái Hót.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "A+ – Chào Mào Mái Hót.mp3"; sourceTree = "<group>"; };
+		CF24DBFB1DE6E152007E6DE5 /* bird0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird0.png; sourceTree = "<group>"; };
+		CF24DBFC1DE6E152007E6DE5 /* bird1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird1.png; sourceTree = "<group>"; };
+		CF24DBFD1DE6E152007E6DE5 /* bird2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird2.png; sourceTree = "<group>"; };
+		CF24DBFE1DE6E152007E6DE5 /* bird3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird3.png; sourceTree = "<group>"; };
+		CF24DBFF1DE6E152007E6DE5 /* bird4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird4.png; sourceTree = "<group>"; };
+		CF24DC001DE6E152007E6DE5 /* bird5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bird5.png; sourceTree = "<group>"; };
+		CF24DC011DE6E152007E6DE5 /* jungle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jungle.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF24DBD31DE6E128007E6DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF24DBE71DE6E128007E6DE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF24DBCD1DE6E128007E6DE5 = {
+			isa = PBXGroup;
+			children = (
+				CF24DBD81DE6E128007E6DE5 /* FlyingBird */,
+				CF24DBED1DE6E128007E6DE5 /* FlyingBirdTests */,
+				CF24DBD71DE6E128007E6DE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF24DBD71DE6E128007E6DE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF24DBD61DE6E128007E6DE5 /* FlyingBird.app */,
+				CF24DBEA1DE6E128007E6DE5 /* FlyingBirdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF24DBD81DE6E128007E6DE5 /* FlyingBird */ = {
+			isa = PBXGroup;
+			children = (
+				CF24DBF91DE6E144007E6DE5 /* Source */,
+				CF24DBD91DE6E128007E6DE5 /* AppDelegate.swift */,
+				CF24DBDB1DE6E128007E6DE5 /* ViewController.swift */,
+				CF24DBDD1DE6E128007E6DE5 /* Main.storyboard */,
+				CF24DBE01DE6E128007E6DE5 /* Assets.xcassets */,
+				CF24DBE21DE6E128007E6DE5 /* LaunchScreen.storyboard */,
+				CF24DBE51DE6E128007E6DE5 /* Info.plist */,
+			);
+			path = FlyingBird;
+			sourceTree = "<group>";
+		};
+		CF24DBED1DE6E128007E6DE5 /* FlyingBirdTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF24DBEE1DE6E128007E6DE5 /* FlyingBirdTests.swift */,
+				CF24DBF01DE6E128007E6DE5 /* Info.plist */,
+			);
+			path = FlyingBirdTests;
+			sourceTree = "<group>";
+		};
+		CF24DBF91DE6E144007E6DE5 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CF24DBFA1DE6E152007E6DE5 /* A+ – Chào Mào Mái Hót.mp3 */,
+				CF24DBFB1DE6E152007E6DE5 /* bird0.png */,
+				CF24DBFC1DE6E152007E6DE5 /* bird1.png */,
+				CF24DBFD1DE6E152007E6DE5 /* bird2.png */,
+				CF24DBFE1DE6E152007E6DE5 /* bird3.png */,
+				CF24DBFF1DE6E152007E6DE5 /* bird4.png */,
+				CF24DC001DE6E152007E6DE5 /* bird5.png */,
+				CF24DC011DE6E152007E6DE5 /* jungle.jpg */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF24DBD51DE6E128007E6DE5 /* FlyingBird */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF24DBF31DE6E128007E6DE5 /* Build configuration list for PBXNativeTarget "FlyingBird" */;
+			buildPhases = (
+				CF24DBD21DE6E128007E6DE5 /* Sources */,
+				CF24DBD31DE6E128007E6DE5 /* Frameworks */,
+				CF24DBD41DE6E128007E6DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingBird;
+			productName = FlyingBird;
+			productReference = CF24DBD61DE6E128007E6DE5 /* FlyingBird.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF24DBE91DE6E128007E6DE5 /* FlyingBirdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF24DBF61DE6E128007E6DE5 /* Build configuration list for PBXNativeTarget "FlyingBirdTests" */;
+			buildPhases = (
+				CF24DBE61DE6E128007E6DE5 /* Sources */,
+				CF24DBE71DE6E128007E6DE5 /* Frameworks */,
+				CF24DBE81DE6E128007E6DE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF24DBEC1DE6E128007E6DE5 /* PBXTargetDependency */,
+			);
+			name = FlyingBirdTests;
+			productName = FlyingBirdTests;
+			productReference = CF24DBEA1DE6E128007E6DE5 /* FlyingBirdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF24DBCE1DE6E128007E6DE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nhật Minh";
+				TargetAttributes = {
+					CF24DBD51DE6E128007E6DE5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					CF24DBE91DE6E128007E6DE5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF24DBD51DE6E128007E6DE5;
+					};
+				};
+			};
+			buildConfigurationList = CF24DBD11DE6E128007E6DE5 /* Build configuration list for PBXProject "FlyingBird" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF24DBCD1DE6E128007E6DE5;
+			productRefGroup = CF24DBD71DE6E128007E6DE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF24DBD51DE6E128007E6DE5 /* FlyingBird */,
+				CF24DBE91DE6E128007E6DE5 /* FlyingBirdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF24DBD41DE6E128007E6DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF24DC061DE6E152007E6DE5 /* bird3.png in Resources */,
+				CF24DBE41DE6E128007E6DE5 /* LaunchScreen.storyboard in Resources */,
+				CF24DC081DE6E152007E6DE5 /* bird5.png in Resources */,
+				CF24DC071DE6E152007E6DE5 /* bird4.png in Resources */,
+				CF24DC051DE6E152007E6DE5 /* bird2.png in Resources */,
+				CF24DBE11DE6E128007E6DE5 /* Assets.xcassets in Resources */,
+				CF24DC041DE6E152007E6DE5 /* bird1.png in Resources */,
+				CF24DC031DE6E152007E6DE5 /* bird0.png in Resources */,
+				CF24DC021DE6E152007E6DE5 /* A+ – Chào Mào Mái Hót.mp3 in Resources */,
+				CF24DBDF1DE6E128007E6DE5 /* Main.storyboard in Resources */,
+				CF24DC091DE6E152007E6DE5 /* jungle.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF24DBE81DE6E128007E6DE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF24DBD21DE6E128007E6DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF24DBDC1DE6E128007E6DE5 /* ViewController.swift in Sources */,
+				CF24DBDA1DE6E128007E6DE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF24DBE61DE6E128007E6DE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF24DBEF1DE6E128007E6DE5 /* FlyingBirdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF24DBEC1DE6E128007E6DE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF24DBD51DE6E128007E6DE5 /* FlyingBird */;
+			targetProxy = CF24DBEB1DE6E128007E6DE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF24DBDD1DE6E128007E6DE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF24DBDE1DE6E128007E6DE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF24DBE21DE6E128007E6DE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF24DBE31DE6E128007E6DE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF24DBF11DE6E128007E6DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF24DBF21DE6E128007E6DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF24DBF41DE6E128007E6DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.FlyingBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF24DBF51DE6E128007E6DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlyingBird/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.FlyingBird;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF24DBF71DE6E128007E6DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlyingBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.FlyingBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingBird.app/FlyingBird";
+			};
+			name = Debug;
+		};
+		CF24DBF81DE6E128007E6DE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FlyingBirdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ahahaha.FlyingBirdTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlyingBird.app/FlyingBird";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF24DBD11DE6E128007E6DE5 /* Build configuration list for PBXProject "FlyingBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF24DBF11DE6E128007E6DE5 /* Debug */,
+				CF24DBF21DE6E128007E6DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF24DBF31DE6E128007E6DE5 /* Build configuration list for PBXNativeTarget "FlyingBird" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF24DBF41DE6E128007E6DE5 /* Debug */,
+				CF24DBF51DE6E128007E6DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF24DBF61DE6E128007E6DE5 /* Build configuration list for PBXNativeTarget "FlyingBirdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF24DBF71DE6E128007E6DE5 /* Debug */,
+				CF24DBF81DE6E128007E6DE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF24DBCE1DE6E128007E6DE5 /* Project object */;
+}
